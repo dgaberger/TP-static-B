@@ -6769,8 +6769,9 @@ body {
   background-color: green;
   height: 100vh; }
 
-.nopadding {
-  padding: 0px; }
+.noPM {
+  padding: 0px;
+  margin: 0; }
 
 #activities {
   background-color: red;
