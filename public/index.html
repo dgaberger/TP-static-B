@@ -4,21 +4,72 @@
     <title>Trip Planner</title>
     <script src="./bundle.js" defer></script>
     <link rel="stylesheet" href="./bundle.css">
-    <!-- <script src="../src/index.js" defer></script> -->
   </head>
   <body>
     <div class=navbar navbar-default>
       <p>NAVBAR</p>
     </div>
+    <div class="row">
+      <div class="col-md-8 nopadding">
+        <div id="map"></div>
+      </div>
+      <div id='sidebar' class="col-md-4 nopadding">
+        <div id="activities">
+          <h4>Hotels</h4>
+            <select>
+              <option value="Marriot">Marriot</option>
+              <option value="Hilton">Hilton</option>
+            </select>
+            <button class="btn btn-danger">X</button>
+          <h4>Restaurants</h4>
+            <select>
+              <option value="AppleBees">AppleBees</option>
+              <option value="Friendly's">Friendly's</option>
+            </select>
+            <button class="btn btn-danger">X</button>
+          <h4>Things To Do</h4>
+            <select>
+              <option value="Fuck Off">Fuck Off</option>
+              <option value="Or Not">Or Not</option>
+            </select>
+            <button class="btn btn-danger">X</button>
+        </div>
+        <div id="itinerary">
+          <div id="dayDisplay">
+            <h2>Day 2</h2>          
+          </div>
+          <div id="daySelect">
+            <button class="btn">1</button>
+            <button class="btn">1</button>
+            <button class="btn">1</button>
+            <button class="btn">1</button>
+          </div>
+          <div id="myStuff">
+            <h4>My Hotel</h4>
+            <ul>
+              <li>[[xxxxxxxxx]]
+                <button class="btn btn-danger">X</button>
+              </li>
+            </ul>
 
-    <div class="container col-md-8">
-      <div id="map"></div>
+            <h4>My Restaurants</h4>
+            <ul>
+              <li>[[xxxxxxxxx]]
+                <button class="btn btn-danger">X</button>
+              </li>
+            </ul>
+
+            <h4>My Activities</h4>
+            <ul>
+              <li>[[xxxxxxxxx]]
+                <button class="btn btn-danger">X</button>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
     </div>
-
-    <div id='sidebar' class"col-md-4">
-        <P>SIDEBAR</P>
-    </div>
-
   </body>
 
 </html>

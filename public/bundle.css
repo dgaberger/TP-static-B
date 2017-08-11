@@ -6759,10 +6759,29 @@ body {
 
 #map {
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  padding: 0px; }
 
 .navbar {
   background-color: blue; }
 
 #sidebar {
-  background-color: green; }
+  background-color: green;
+  height: 100vh; }
+
+.nopadding {
+  padding: 0px; }
+
+#activities {
+  background-color: red;
+  height: 35%; }
+
+#itinerary {
+  height: 65%;
+  background-color: lightgreen; }
+
+#dayDisplay {
+  background-color: lightgray; }
+
+#daySelect {
+  background-color: yellow; }
